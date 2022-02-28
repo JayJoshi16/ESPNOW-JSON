@@ -12,7 +12,7 @@ _**See EXAMPLES codes**_
 
 **Bidirectional JSON communication using ESPNOW**
 
-![ESP_NOW_two_way_communication_two_boards](https://user-images.githubusercontent.com/86542830/155992409-e8c7ef4b-853e-4020-8d48-30b0bd3b437e.png)
+![ESP_NOW_two_way_communication_two_boards](https://user-images.githubusercontent.com/86542830/155992746-9b694dc1-44b1-4276-b457-b2158428e47d.jpg)
 
 
 
