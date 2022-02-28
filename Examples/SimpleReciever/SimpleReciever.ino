@@ -1,4 +1,4 @@
-/*  Codes that Recieves JSON data using ESPNOW Protocol
+/*  Codes that Receives  JSON data using ESPNOW Protocol
 
 *   Developed by  Jay Joshi 
 *   github.com/JayJoshi16
