@@ -1,3 +1,8 @@
+/*  Codes that Sends  JSON data using ESPNOW Protocol
+
+*   Developed by  Jay Joshi 
+*   github.com/JayJoshi16
+*/
 
 #include <esp_now.h>
 #include <WiFi.h>
