@@ -1,9 +1,9 @@
-# ESPNOW-JSON
+# ESPNOW JSON , Sending and Recieving JSON Data using ESP NOW Protocol 
 Learn how to use **ESP-NOW** to exchange **JSON data** between **ESP32** boards programmed with Arduino IDE.
 
-
-Send and Recieve _**JSON**_ data by either One way or Two way communication .
-_**See EXAMPLES codes**_ and **TWOWAY_ESPNOW_JSON codes**
+   Send and Recieve _**JSON**_ data by either One way or Two way communication .
+   
+   _**See EXAMPLES codes**_ and **TWOWAY_ESPNOW_JSON codes**
 
 
 
