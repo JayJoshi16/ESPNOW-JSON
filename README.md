@@ -14,17 +14,23 @@ Learn how to use **ESP-NOW** to exchange **JSON data** between **ESP32** boards 
 
 
 
-ESP-NOW supports the following features:
+**ESP-NOW supports the following features:**
 
-   -Encrypted and unencrypted unicast communication;
-   -Mixed encrypted and unencrypted peer devices;
-   -Up to **250-byte** payload can be carried;
-   -Sending callback function that can be set to inform the application layer of transmission success or failure.
+   >   _Encrypted and unencrypted unicast communication_ 
+   
+   >  _Mixed encrypted and unencrypted peer devices_ 
+   
+   >  _Up to **250-byte** payload can be carried_  
+   
+   >  _-Sending callback function that can be set to inform the application layer of transmission success or failure_  
+   
   
-ESP-NOW technology also has the following limitations:
+**ESP-NOW technology also has the following limitations:**
 
-   -Limited encrypted peers. 10 encrypted peers at the most are supported in Station mode
-    6 at the most in SoftAP or SoftAP + Station mode
-   -Multiple unencrypted peers are supported, however, their total number should be less than 20,
-    including encrypted peers
-   -**Payload is limited to 250 bytes**.
+   >  _Limited encrypted peers. 10 encrypted peers at the most are supported in Station mode
+    6 at the most in SoftAP or SoftAP + Station mode_  
+    
+   >  _Multiple unencrypted peers are supported, however, their total number should be less than 20,
+    including encrypted peers_  
+    
+   >  _**Payload is limited to 250 bytes**_
