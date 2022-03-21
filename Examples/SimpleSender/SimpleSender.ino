@@ -11,7 +11,7 @@ uint8_t broadcastAddress[] = {0xAC, 0x67, 0xB2, 0x3C, 0x99, 0x30}; //Destination
 
 #include <ArduinoJson.h>
 String jsondata;
-StaticJsonDocument<200> doc;
+StaticJsonDocument<256> doc;
 
 
 //function for Sending data
@@ -52,7 +52,7 @@ void loop() {
   serializeJson(doc, jsondata);  //Serilizing JSON
   esp_now_send(broadcastAddress, (uint8_t *) jsondata.c_str(), sizeof(jsondata)*jsondata.length());  //Sending "jsondata"  
   Serial.println(jsondata);                                                       
-  delay(20);
+  delay(2000);
 
   
   
@@ -63,5 +63,5 @@ void loop() {
   serializeJson(doc, jsondata);
   esp_now_send(broadcastAddress, (uint8_t *) jsondata.c_str(), sizeof(jsondata)*jsondata.length());
   Serial.println(jsondata);
-  delay(20);
+  delay(2000);
 }
