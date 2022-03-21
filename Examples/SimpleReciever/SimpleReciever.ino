@@ -7,11 +7,10 @@
 
 #include <esp_now.h>
 #include <WiFi.h>
-uint8_t broadcastAddress[] = {0x3C, 0x71, 0xBF, 0x4C, 0x9C, 0xD0};  //Source ESP32's MAC Address
 
 #include <ArduinoJson.h>
 String jsondata;
-DynamicJsonDocument doc(1024);
+StaticJsonDocument<256> doc;
 
 
 void OnDataRecv(const uint8_t * mac, const uint8_t *incomingData, int len) {
@@ -24,7 +23,7 @@ void OnDataRecv(const uint8_t * mac, const uint8_t *incomingData, int len) {
     
   if (!error) {
         long a   = doc["a"]; 
-        const char* b  =   doc["b"]; 
+        String b  =   doc["b"]; 
         Serial.println(a);                   //values of a
         Serial.println(b);                   //values of b
   }
